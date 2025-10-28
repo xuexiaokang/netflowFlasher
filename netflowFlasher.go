@@ -14,14 +14,14 @@ import (
 // 星铁pc，星铁apk，崩2，崩3PC完整，原pc，原apk
 var downloadList = []string{"https://api-takumi.mihoyo.com/event/download_porter/link/hkrpg_cn/official/pc_default",
 	"https://api-takumi.mihoyo.com/event/download_porter/link/hkrpg_cn/official/android_default",
-	"https://static.benghuai.com/Download/v10_1/Original.StripResource_10.1.8_313_utw.shell.apk",
-	"https://bundle.bh3.com/ptpublic/rel/20230416151857_AsBJm4PVPKKR38YI/PC/BH3_v6.6.0_4ed7d53313df.7z",
+	"https://dldir1.qq.com/qqfile/qq/PCQQ9.7.17/QQ9.7.17.29225.exe",
+	"https://mirrors.huaweicloud.com/ubuntu-releases/bionic/ubuntu-18.04.6-desktop-amd64.iso",
 	"https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/pc_default",
 	"https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/android_default"}
 
 // 下载限速，单位KB
 const (
-	datachunk = 3 * 1024 * 1024 // 下载限速
+	datachunk = 100 * 1024 * 1024 // 下载限速
 	timelapse = 1               // per second
 )
 
